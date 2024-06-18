@@ -5,7 +5,7 @@ FROM nginx:alpine
 COPY . /usr/share/nginx/html
 
 # Expor a porta 3000
-EXPOSE 3000
+EXPOSE 3080
 
 # Substituir a configuração padrão do Nginx
 RUN rm /etc/nginx/conf.d/default.conf
