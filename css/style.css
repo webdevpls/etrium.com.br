@@ -663,7 +663,7 @@ nav .container{
       display: flex;
       align-items: center;
       justify-content: center;
-      margin: 1rem 0 3rem 0;
+      margin: 1rem 0 1rem 0;
   }
 
 
@@ -752,6 +752,53 @@ nav .container{
     background: var(--main-color);
     margin: 8px;
     transition: 0.3s;
+}
+
+.termo{
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+    color: white;
+
+}
+
+.termoderesponsabilidade {
+    width: 1200px; /* Limita a largura do texto */
+    text-align: justify;
+    justify-content: center;
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+
+}
+
+.termoderesponsabilidade h1, h2, h3, p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+
+}
+
+.termodiv{ 
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+}
+
+.termodiv span{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+
 }
 
 @media (max-width: 1496px){
